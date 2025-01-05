@@ -158,8 +158,7 @@ def main():
         if debate_outputs and summary:
             st.session_state.debate_outputs = debate_outputs
             st.session_state.summary = summary
-            st.session_state.debate_finished = True
-            st.experimental_rerun()
+            st.session_state.debate_finished = True        
 
     # Display debate progress and summary
     if st.session_state.debate_finished:
