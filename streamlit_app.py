@@ -194,11 +194,6 @@ def main():
             </div>
             """, unsafe_allow_html=True)
 
-        # Button to start a new debate
-        if st.button("Start New Debate"):
-            st.session_state.debate_started = False
-            st.session_state.debate_finished = False
-            st.experimental_rerun()
-
+     
 if __name__ == "__main__":
     main()
